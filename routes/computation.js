@@ -15,7 +15,7 @@ router.get('/', function (req, res, next) {
 
   res.render('computation', {
     title: 'Computation',
-    value1: `Math.acosh() applied to ` + x + ` is ${Math.acosh(x,x).toFixed(2)}`,
+    value1: `Math.acosh() applied to ` + x + ` is ${Math.acosh(x).toFixed(2)}`,
     value2: `Math.log1p() applied to ` + x + ` is ${Math.log1p(x)}`,
     value3: `Math.tan() applied to ` + x + ` is ${Math.tan(x).toFixed(2)}`,
     value4: `Math.sqrt() applied to ` + x + ` is ${Math.sqrt(x)}`
